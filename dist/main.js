@@ -258,7 +258,7 @@ class ThreeJSContainer {
             const geometry = new three__WEBPACK_IMPORTED_MODULE_2__.BufferGeometry();
             //マテリアルの作成
             const textureLoader = new three__WEBPACK_IMPORTED_MODULE_2__.TextureLoader();
-            const texture = textureLoader.load('gate2.jpeg');
+            const texture = textureLoader.load('whitepoint.png');
             const material = new three__WEBPACK_IMPORTED_MODULE_2__.PointsMaterial({ size: 1.5, map: texture, blending: three__WEBPACK_IMPORTED_MODULE_2__.AdditiveBlending, color: 0xff4e4e, depthWrite: false, transparent: true, opacity: 0.4 });
             //particleの作成
             const particleNum = 150; // パーティクルの数
